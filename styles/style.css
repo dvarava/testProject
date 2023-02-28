@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #b2b2b2;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+}
+
+header img {
+    width: 6em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    padding-inline-start: 0px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #b2b2b2;
+}
+
+main {
+    padding: 0 10px;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black; 
+}
+
+.earnings-section h4{
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+.earnings-section table {
+    margin: auto;
+    padding: auto;
+}
+
+.earnings-section table td, th{
+    padding-right: 12em; 
+}
+
+.products-section-images {
+    display: flex;
+}
+
+.products-section-images img{
+    width: 20em;
+    padding-right: 0.5em;
+}
+
+.leader-section-content {
+    display: flex;
+}
+
+.leader-section-content img{
+    width: 20em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.team-section {
+    text-align: center;
+    margin: 2em 8em 6em 8em;
+    padding: 1em 1em;
+    border: 1px solid black;
+}
+
+.team-section p {
+    text-align: justify;
+}
+
+.products-title {
+    text-align: center;
+}
+
+.product-section img {
+    width: 25em;
+}
+
+.product-section {
+    text-align: center;
+    margin: 0 8em 6em 8em;
+    padding: 1em 1em;
+    border: 1px solid black;
+}
+
+.product-section p {
+    text-align: justify;
+}
